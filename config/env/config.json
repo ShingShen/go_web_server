@@ -1,0 +1,35 @@
+{
+    "user": {
+        "password_salt": "password_salt",
+        "login_token_salt": "login_token_salt"
+    },
+    "mySql": {
+        "ip": "mysql_ip",
+        "port": 3306,
+        "user_name": "user_name",
+        "password": "password"
+    },
+    "redis": {
+        "addr": "redis_ip",
+        "password": "",
+        "login_token": 0
+    },
+    "gmail": {
+        "sender": "sender@gmail.com",
+        "app_password": "app_password",
+        "smtp_mail": "smtp.gmail.com",
+        "port": 587
+    },
+    "firebase_key": {
+        "type": "service_account",
+        "project_id": "project_id",
+        "private_key_id": "private_key_id",
+        "private_key": "private_key",
+        "client_email": "client_email",
+        "client_id": "client_id",
+        "auth_uri": "auth_uri",
+        "token_uri": "token_uri",
+        "auth_provider_x509_cert_url": "auth_provider_x509_cert_url",
+        "client_x509_cert_url": "client_x509_cert_url"
+    }
+}
